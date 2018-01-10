@@ -1,2 +1,2 @@
 # 2d-game-engine
-A 2D Game Engine written in C++ using the SDL, OpenGL, and LUA libraries. Built in 2011.
+A 2D Game Engine written in C++ using the SDL, OpenGL 1.1, and LUA libraries. Built in 2011. The file uses an old version of the SDL library as well as a Lua interpretter and will most likely not compile since the project hasn't been updated since 2011. The structure of the project centers around an App class which handles the inputs and the game loop. The calls to OpenGL are through the renderer class. Then auxillary classes are created to handle other features that would be used to create a tile based game with OpenGL such as a Spritesheet animator, tilesheet loader, and others. 
